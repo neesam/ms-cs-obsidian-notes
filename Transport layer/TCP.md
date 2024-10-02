@@ -1,0 +1,11 @@
+- #### What is the service model TCP provides?
+	- Abstraction of a reliable, in order stream
+
+- #### How does TCP allow for [[Reliable transfer|reliable transfer]]?
+	- Datagram includes a sequence number
+		- Indicates which bytes are contained in the datagram
+		- Receiver can say which bytes in sequence it has received
+	- Receiver sends an [[Datagram header|acknowledgement]] number to the sender
+		- Specifies to the sender what the next byte in the stream it expects to receive
+	- Sender performs [[Retransmission|retransmission]]
+		- Sender can resend unacknowledged bytes in the stream
