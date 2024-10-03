@@ -1,0 +1,5 @@
+- #### Why would packet drops at the receiver occur?
+	- Sender may be able to send at higher rates than receiver can accept
+	- ###### Flow control
+		- [[TCP]] receiver advertises free buffer space in [[Receiver window field|receiver window field]] (located in [[Segment header|TCP header]])
+		- Receiver window field limits amount of bytes sender can send to receiver

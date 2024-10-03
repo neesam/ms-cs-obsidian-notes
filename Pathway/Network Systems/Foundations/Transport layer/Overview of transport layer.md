@@ -1,4 +1,3 @@
-
 - Communication between processes or applications running on a host
 - Transport [[Header|header]] is added to [[Packet|packet]]
 		- Includes source and destination ports

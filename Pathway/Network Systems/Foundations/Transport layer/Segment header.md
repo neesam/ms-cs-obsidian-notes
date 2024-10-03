@@ -1,0 +1,11 @@
+- ## Key fields
+	- ##### Source and destination ports
+	- ##### Sequence number
+	- ##### Acknowledgement number
+	- ##### Flags (e.g., SYN, ACK, FIN)
+	- ##### Window size
+
+- #### What is the difference between a [[Congestion control|congestion window]] and a receive window?
+	- [[Receiver window field|Receive window]] is an explicit field in the TCP header
+	- Congestion window is something that is internal state on the host
+		- Sender has to be less than both of these windows
