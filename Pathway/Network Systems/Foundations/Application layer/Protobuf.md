@@ -1,0 +1,2 @@
+- #### Definition
+	- Binary format to serialize data

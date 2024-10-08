@@ -12,7 +12,7 @@
 	- UDP and [[TCP]]
 
 - #### What are the hallmarks of a connectionless-oriented protocol?
-	- Uses destination [[IP]] addresses and destination port to [[Routing Data|route data]] 
+	- Uses destination [[IP address]] addresses and destination port to [[Routing Data|route data]] 
 	- Does not require a connection setup phase (no handshake before sending data)
 	- The only information stored is the (IP address, port) to process mapping, which means minimal tracking or management by the system
 

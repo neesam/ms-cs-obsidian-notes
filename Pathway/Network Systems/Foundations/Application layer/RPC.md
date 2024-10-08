@@ -1,0 +1,5 @@
+- ##### What is RPC?
+	- Remote Procedure Call
+		- Extends the idea of a local procedure call to enable communication between remote systems
+		- Allows a program to call a function on another machine as if it were local
+		- Defined framework for encoding data and handling communication protocols

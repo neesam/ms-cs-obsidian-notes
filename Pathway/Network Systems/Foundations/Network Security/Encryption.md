@@ -1,0 +1,8 @@
+- ##### What are some types of encryption?
+	- ###### Symmetric encryption
+		- A shared [[Key|key]] is used amongst users for both encryption and decryption
+	- ###### AES
+		- Placeholder
+	- ###### Asymmetric encryption
+		- Two keys are generated: public and private
+		- Public key does the encryption and private key does the decryption
