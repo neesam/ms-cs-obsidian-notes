@@ -1,0 +1,25 @@
+- ### Definition
+	- A process by which traffic is directed to one of **n** servers that can handle a request
+- ### Purpose
+	- Used for scaling and resilience
+
+- ### Considerations
+	- **Server set**
+		- Which servers are part of the set to choose from?
+		- Servers are statically assigned
+		- Heartbeat checks to see if servers are live and update table accordingly
+	- **Flow affinity**
+		- TCP is stateful, so we need to ensure all packets from the same TCP connection go to the same server
+
+- ### Algorithms
+	- **Source hashing**
+		- Hash function determines server for source IP and port
+			- Stateless; flow affinity is taken care of by the hash function
+	- **Round robin**
+		- Server selection iterates through each server in order
+			- Ensures balanced load, assuming each request is roughly the same load
+			- Load balancer needs to keep state for flow affinity
+	- **Least connections**
+		- Server selection is based on which has the least number of active connections
+			- Takes into account that some requests may be longer, but assumes each connection imposes similar load on server
+			- Load balancer needs to keep state

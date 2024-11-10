@@ -4,35 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "6376e8606b2dfba1",
+        "id": "6de9605d8a239157",
         "type": "tabs",
         "children": [
           {
-            "id": "2f65d41f408326af",
+            "id": "3984da09002b01ed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pathway/Network Systems/Foundations/Application layer/Root DNS server.md",
+                "file": "Pathway/Network Systems/Linux Networking/IP networking.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "3f700171a0a4ff08",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pathway/Network Systems/Foundations/Network Security/Encryption.md",
-                "mode": "source",
-                "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "IP networking"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -52,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -61,13 +52,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "datagram",
+                "query": "namespac",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -75,14 +68,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 265.5
+    "width": 200
   },
   "right": {
     "id": "cf11b98f7b5c07a1",
@@ -98,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pathway/Network Systems/Foundations/Network Security/Encryption.md",
+                "file": "Pathway/Network Systems/Linux Networking/IP networking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +101,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for IP networking"
             }
           },
           {
@@ -115,10 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pathway/Network Systems/Foundations/Network Security/Encryption.md",
+                "file": "Pathway/Network Systems/Linux Networking/IP networking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from IP networking"
             }
           },
           {
@@ -129,7 +128,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -138,8 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pathway/Network Systems/Foundations/Network Security/Encryption.md"
-              }
+                "file": "Pathway/Network Systems/Linux Networking/IP networking.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of IP networking"
             }
           }
         ]
@@ -156,44 +159,47 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "3f700171a0a4ff08",
+  "active": "3984da09002b01ed",
   "lastOpenFiles": [
-    "Pathway/Network Systems/Foundations/Network Security/Key.md",
-    "Pathway/Network Systems/Foundations/Network Security/Encryption.md",
-    "Pathway/Network Systems/Foundations/Application layer/Root DNS server.md",
-    "Pathway/Network Systems/Foundations/Network Security",
-    "Pathway/Network Systems/Foundations/Application layer/Local DNS server.md",
-    "Pathway/Network Systems/Foundations/Application layer/Authoritative DNS server.md",
-    "Pathway/Network Systems/Foundations/Application layer/Domain Name System (DNS).md",
-    "Pathway/Network Systems/Foundations/Application layer/Application Layer Protocol.md",
-    "Pathway/Network Systems/Foundations/Application layer/gRPC.md",
-    "Pathway/Network Systems/Foundations/Application layer/RPC.md",
-    "Pathway/Network Systems/Foundations/Distributed system.md",
-    "Pathway/Network Systems/Foundations/Application layer/Protobuf.md",
-    "Pathway/Network Systems/Foundations/Application layer/HTTP.md",
-    "Pathway/Network Systems/Foundations/Application layer/Socket.md",
-    "Pathway/Network Systems/Foundations/Application layer/DNS packet.md",
-    "Pathway/Network Systems/Foundations/Application layer/Name server.md",
-    "Pathway/Network Systems/Foundations/Application layer/Anycast.md",
-    "Pathway/Network Systems/Foundations/Application layer/Top level domain server.md",
-    "Pathway/Network Systems/Foundations/Application layer/Domain.md",
-    "Pathway/Network Systems/Foundations/Application layer/Resource records.md",
-    "Pathway/Network Systems/Foundations/Application layer/Top level domain.md",
+    "Pathway/Network Systems/Linux Networking/Kubernetes.md",
+    "Pathway/Network Systems/Linux Networking/tc.md",
+    "Pathway/Network Systems/Linux Networking/ip netns.md",
+    "Pathway/Network Systems/Linux Networking/Linux namespace.md",
+    "Pathway/Network Systems/Linux Networking/Linux Data Plane.md",
+    "Pathway/Network Systems/Linux Networking/ipvs.md",
+    "Pathway/Network Systems/Linux Networking/iptables.md",
+    "Pathway/Network Systems/Linux Networking/IP networking.md",
+    "Pathway/Network Systems/Linux Networking/IP Link.md",
+    "Pathway/Network Systems/Linux Networking/Images.md",
+    "Pathway/Network Systems/Linux Networking/Filtering.md",
+    "Pathway/Network Systems/Linux Networking/Docker.md",
+    "Pathway/Network Systems/Linux Networking/Containers.md",
+    "Pathway/Network Systems/Linux Networking/Classification.md",
+    "Pathway/Network Systems/Linux Networking/Bridge.md",
+    "Pathway/Network Systems/Linux Networking/Bare metal.md",
+    "Pathway/Network Systems/Linux Networking/Address translation.md",
+    "Pathway/Network Systems/Linux Networking/Traffic Shaping.md",
+    "Pathway/Network Systems/Linux Networking/Quality of Service.md",
+    "Pathway/Network Systems/Linux Networking/Scheduling.md",
+    "Templates/Untitled.md",
+    "Template.md",
+    "Templates",
+    "ipvsadm.md",
+    "Pathway/Network Systems/Linux Networking/Load balancing.md",
+    "Pathway/Network Systems/Linux Networking/Match-Action tables.md",
     "Pathway/Network Systems/Foundations/Network layer/IP address.md",
-    "Pathway/Network Systems/Foundations/Transport layer/UDP.md",
-    "Pathway/Network Systems/Foundations/Application layer/Application layer.md",
-    "Pathway/Network Systems/Foundations/Header.md",
-    "Pathway/Network Systems/Foundations/Packet.md",
-    "Pathway/Network Systems/Foundations/Transport layer/Acknowledgements.md",
+    "Pathway/Network Systems/Linux Networking/Linux Gateway",
+    "Pathway/Network Systems/Linux Networking/IP Layer",
+    "Pathway/Network Systems/Linux Networking/Intro",
+    "Pathway/Network Systems/Linux Networking",
+    "Pathway/Network Systems/Foundations/Network Security",
     "Pathway/Network Systems/Foundations/Network layer",
     "Pathway/Network Systems/Foundations/Link layer",
     "Pathway/Network Systems/Foundations/Application layer",
-    "Pathway/Network Systems/Foundations/Transport layer",
-    "Pathway/Network Systems/Foundations",
-    "Pathway/Network Systems",
-    "Pathway"
+    "Pathway/Network Systems/Foundations/Transport layer"
   ]
 }

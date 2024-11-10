@@ -1,0 +1,9 @@
+- ### Definition
+	- **RPKI (Resource Public Key Infrastructure)** is a security framework that uses digital certificates to verify the ownership of IP address blocks and Autonomous System (AS) numbers
+- ### Purpose
+	- It helps prevent route hijacking and misconfigurations by ensuring that only authorized organizations can announce specific IP address prefixes on the Internet.
+- ### Architecture
+	- Digital certificates are used to verify IP address block ownership and authorization for route announcements.
+	- **Certificate Authorities (CAs)**, such as regional internet registries (RIRs), issue certificates to organizations for their IP resources.
+	- Organizations create **ROAs (Route Origin Authorizations)** to specify which networks can announce their IP prefixes.
+	- Validators check these ROAs to confirm that route announcements are legitimate, preventing route hijacking and misconfigurations.
