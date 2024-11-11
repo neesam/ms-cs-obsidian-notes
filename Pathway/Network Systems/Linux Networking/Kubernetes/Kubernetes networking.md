@@ -1,0 +1,6 @@
+- ### Pod to pod
+	- Each pod gets an IP address which is in a specific range defined by a subnet that is part of the overall k8s network
+		- A way to handle communication efficiently within the cluster is needed since the k8s network may involve multiple nodes (which can be in different subnets)
+			- **[[Container Network Interface (CNI)]]**
+				- Defines rules for a [[Network plugin|network plugin]] (which sets up networking for a pod) to follow
+				- Network plugin is called by container runtime

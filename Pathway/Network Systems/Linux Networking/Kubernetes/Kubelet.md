@@ -1,0 +1,5 @@
+- ### Definition
+	- An agent that runs on each node in a [[Kubernetes]] [[Cluster|cluster]] which is responsible for:
+		- Managing the lifecycle of [[Pod|pods]] on that [[Node|node]]
+		- Ensuring that [[Containers|containers]] are running and healthy
+		- Communicating with the control plane to receive instructions

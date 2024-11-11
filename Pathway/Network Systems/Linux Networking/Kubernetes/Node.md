@@ -1,0 +1,2 @@
+- ### Definition
+	- A physical or [[Virtual machine|virtual machine]] in a [[Kubernetes|Kubernetes]] [[Cluster|cluster]] that runs [[Pod|pods]]. Contains the necessary components to manage and run pods, such as a container runtime, Kubelet (which manages communication with the Kubernetes control plane), and a network proxy

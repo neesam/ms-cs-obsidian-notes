@@ -4,24 +4,95 @@
     "type": "split",
     "children": [
       {
-        "id": "6de9605d8a239157",
+        "id": "6bd2bbb257da1069",
         "type": "tabs",
         "children": [
           {
-            "id": "3984da09002b01ed",
+            "id": "fcf53c7bece13a14",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pathway/Network Systems/Linux Networking/IP networking.md",
+                "file": "Pathway/Network Systems/Linux Networking/Kubernetes/Kubernetes networking.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IP networking"
+              "title": "Kubernetes networking"
+            }
+          },
+          {
+            "id": "25792aa503161fa7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pathway/Network Systems/Linux Networking/Kubernetes/Pod.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Pod"
+            }
+          },
+          {
+            "id": "3234803e7682896b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pathway/Network Systems/Linux Networking/Kubernetes/Cluster.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cluster"
+            }
+          },
+          {
+            "id": "b0a4857f4d7a4851",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pathway/Network Systems/Linux Networking/Kubernetes/Kubelet.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Kubelet"
+            }
+          },
+          {
+            "id": "4dbf836971446967",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pathway/Network Systems/Linux Networking/Kubernetes/Control plane.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Control plane"
+            }
+          },
+          {
+            "id": "f64e291f36dc4a39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pathway/Network Systems/Linux Networking/Kubernetes/Kubernetes networking.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Kubernetes networking"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -93,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pathway/Network Systems/Linux Networking/IP networking.md",
+                "file": "Pathway/Network Systems/Linux Networking/Kubernetes/Control plane.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +174,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for IP networking"
+              "title": "Backlinks for Control plane"
             }
           },
           {
@@ -112,12 +183,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pathway/Network Systems/Linux Networking/IP networking.md",
+                "file": "Pathway/Network Systems/Linux Networking/Kubernetes/Control plane.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from IP networking"
+              "title": "Outgoing links from Control plane"
             }
           },
           {
@@ -139,10 +210,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pathway/Network Systems/Linux Networking/IP networking.md"
+                "file": "Pathway/Network Systems/Linux Networking/Kubernetes/Control plane.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of IP networking"
+              "title": "Outline of Control plane"
             }
           }
         ]
@@ -163,35 +234,36 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3984da09002b01ed",
+  "active": "4dbf836971446967",
   "lastOpenFiles": [
-    "Pathway/Network Systems/Linux Networking/Kubernetes.md",
+    "Pathway/Network Systems/Linux Networking/Scheduling.md",
+    "Pathway/Network Systems/Linux Networking/Kubernetes/Kubelet.md",
+    "Pathway/Network Systems/Linux Networking/Kubernetes/Kubernetes.md",
+    "Pathway/Network Systems/Linux Networking/Kubernetes",
+    "Pathway/Network Systems/Linux Networking/Kubernetes/Control plane.md",
+    "Pathway/Network Systems/Linux Networking/Kubernetes/Cluster.md",
+    "Pathway/Network Systems/Linux Networking/Kubernetes/Node.md",
+    "Pods.md",
+    "Pathway/Network Systems/Linux Networking/Kubernetes/Pod.md",
+    "Pathway/Network Systems/Linux Networking/Kubernetes/Kubernetes networking.md",
+    "Pathway/Network Systems/Linux Networking/Kubernetes/Container runtime.md",
+    "Pathway/Network Systems/Linux Networking/Match-Action tables.md",
+    "Pathway/Network Systems/Linux Networking/Filtering.md",
+    "Pathway/Network Systems/Linux Networking/Kubernetes/Docker.md",
+    "Pathway/Network Systems/Linux Networking/Containers.md",
+    "Pathway/Network Systems/Foundations/Network layer/IP address.md",
+    "Pathway/Network Systems/Linux Networking/Kubernetes/Network plugin.md",
+    "Pathway/Network Systems/Linux Networking/Container Network Interface (CNI).md",
+    "Pathway/Network Systems/Linux Networking/IP networking.md",
     "Pathway/Network Systems/Linux Networking/tc.md",
     "Pathway/Network Systems/Linux Networking/ip netns.md",
     "Pathway/Network Systems/Linux Networking/Linux namespace.md",
     "Pathway/Network Systems/Linux Networking/Linux Data Plane.md",
     "Pathway/Network Systems/Linux Networking/ipvs.md",
     "Pathway/Network Systems/Linux Networking/iptables.md",
-    "Pathway/Network Systems/Linux Networking/IP networking.md",
     "Pathway/Network Systems/Linux Networking/IP Link.md",
     "Pathway/Network Systems/Linux Networking/Images.md",
-    "Pathway/Network Systems/Linux Networking/Filtering.md",
-    "Pathway/Network Systems/Linux Networking/Docker.md",
-    "Pathway/Network Systems/Linux Networking/Containers.md",
-    "Pathway/Network Systems/Linux Networking/Classification.md",
-    "Pathway/Network Systems/Linux Networking/Bridge.md",
-    "Pathway/Network Systems/Linux Networking/Bare metal.md",
-    "Pathway/Network Systems/Linux Networking/Address translation.md",
-    "Pathway/Network Systems/Linux Networking/Traffic Shaping.md",
-    "Pathway/Network Systems/Linux Networking/Quality of Service.md",
-    "Pathway/Network Systems/Linux Networking/Scheduling.md",
-    "Templates/Untitled.md",
-    "Template.md",
     "Templates",
-    "ipvsadm.md",
-    "Pathway/Network Systems/Linux Networking/Load balancing.md",
-    "Pathway/Network Systems/Linux Networking/Match-Action tables.md",
-    "Pathway/Network Systems/Foundations/Network layer/IP address.md",
     "Pathway/Network Systems/Linux Networking/Linux Gateway",
     "Pathway/Network Systems/Linux Networking/IP Layer",
     "Pathway/Network Systems/Linux Networking/Intro",
@@ -199,7 +271,6 @@
     "Pathway/Network Systems/Foundations/Network Security",
     "Pathway/Network Systems/Foundations/Network layer",
     "Pathway/Network Systems/Foundations/Link layer",
-    "Pathway/Network Systems/Foundations/Application layer",
-    "Pathway/Network Systems/Foundations/Transport layer"
+    "Pathway/Network Systems/Foundations/Application layer"
   ]
 }
