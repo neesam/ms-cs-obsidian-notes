@@ -4,7 +4,6 @@
     "type": "split",
     "children": [
       {
-<<<<<<< HEAD
         "id": "6bd2bbb257da1069",
         "type": "tabs",
         "children": [
@@ -70,39 +69,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pathway/Network Systems/Linux Networking/Kubernetes/Control plane.md",
+                "file": "Pathway/Network Systems/Linux Networking/Kubernetes/Network plugin.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Control plane"
+              "title": "Network plugin"
             }
           },
           {
-            "id": "f64e291f36dc4a39",
+            "id": "26de364e3af83ebb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pathway/Network Systems/Linux Networking/Kubernetes/Kubernetes networking.md",
+                "file": "Pathway/Network Systems/Linux Networking/Kubernetes/Service.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kubernetes networking"
-=======
-        "id": "ce185f6e99045675",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f6ce2c25f50576b1",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
->>>>>>> 02c74f346cfda2b4c0ecc660006ca1a23c0e9bf4
+              "title": "Service"
             }
           }
         ],
@@ -137,7 +123,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "http",
+                "query": "n abstraction which defines a logical set of pods and a policy by which to access them",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -162,7 +148,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "cf11b98f7b5c07a1",
@@ -178,11 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "Pathway/Network Systems/Linux Networking/Kubernetes/Control plane.md",
-=======
-                "file": "Pathway/Network Systems/Foundations/Network Security/VPN (Virtual Private Network).md",
->>>>>>> 02c74f346cfda2b4c0ecc660006ca1a23c0e9bf4
+                "file": "Pathway/Network Systems/Linux Networking/Kubernetes/Network plugin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,11 +174,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-<<<<<<< HEAD
-              "title": "Backlinks for Control plane"
-=======
-              "title": "Backlinks for VPN (Virtual Private Network)"
->>>>>>> 02c74f346cfda2b4c0ecc660006ca1a23c0e9bf4
+              "title": "Backlinks for Network plugin"
             }
           },
           {
@@ -205,20 +183,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-                "file": "Pathway/Network Systems/Linux Networking/Kubernetes/Control plane.md",
-=======
-                "file": "Pathway/Network Systems/Foundations/Network Security/VPN (Virtual Private Network).md",
->>>>>>> 02c74f346cfda2b4c0ecc660006ca1a23c0e9bf4
+                "file": "Pathway/Network Systems/Linux Networking/Kubernetes/Network plugin.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-<<<<<<< HEAD
-              "title": "Outgoing links from Control plane"
-=======
-              "title": "Outgoing links from VPN (Virtual Private Network)"
->>>>>>> 02c74f346cfda2b4c0ecc660006ca1a23c0e9bf4
+              "title": "Outgoing links from Network plugin"
             }
           },
           {
@@ -240,17 +210,10 @@
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< HEAD
-                "file": "Pathway/Network Systems/Linux Networking/Kubernetes/Control plane.md"
+                "file": "Pathway/Network Systems/Linux Networking/Kubernetes/Network plugin.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Control plane"
-=======
-                "file": "Pathway/Network Systems/Foundations/Network Security/VPN (Virtual Private Network).md"
-              },
-              "icon": "lucide-list",
-              "title": "Outline of VPN (Virtual Private Network)"
->>>>>>> 02c74f346cfda2b4c0ecc660006ca1a23c0e9bf4
+              "title": "Outline of Network plugin"
             }
           }
         ]
@@ -268,22 +231,22 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "flashcards-obsidian:Generate flashcards": false
+      "templater-obsidian:Templater": false
     }
   },
-<<<<<<< HEAD
   "active": "4dbf836971446967",
   "lastOpenFiles": [
+    "Pathway/Network Systems/Linux Networking/Kubernetes/Kubernetes networking.md",
+    "Pathway/Network Systems/Linux Networking/Kubernetes/Service.md",
+    "Pathway/Network Systems/Linux Networking/Kubernetes/Kubernetes.md",
+    "Pathway/Network Systems/Linux Networking/Kubernetes/Control plane.md",
     "Pathway/Network Systems/Linux Networking/Scheduling.md",
     "Pathway/Network Systems/Linux Networking/Kubernetes/Kubelet.md",
-    "Pathway/Network Systems/Linux Networking/Kubernetes/Kubernetes.md",
     "Pathway/Network Systems/Linux Networking/Kubernetes",
-    "Pathway/Network Systems/Linux Networking/Kubernetes/Control plane.md",
     "Pathway/Network Systems/Linux Networking/Kubernetes/Cluster.md",
     "Pathway/Network Systems/Linux Networking/Kubernetes/Node.md",
     "Pods.md",
     "Pathway/Network Systems/Linux Networking/Kubernetes/Pod.md",
-    "Pathway/Network Systems/Linux Networking/Kubernetes/Kubernetes networking.md",
     "Pathway/Network Systems/Linux Networking/Kubernetes/Container runtime.md",
     "Pathway/Network Systems/Linux Networking/Match-Action tables.md",
     "Pathway/Network Systems/Linux Networking/Filtering.md",
@@ -293,58 +256,21 @@
     "Pathway/Network Systems/Linux Networking/Kubernetes/Network plugin.md",
     "Pathway/Network Systems/Linux Networking/Container Network Interface (CNI).md",
     "Pathway/Network Systems/Linux Networking/IP networking.md",
-=======
-  "active": "f6ce2c25f50576b1",
-  "lastOpenFiles": [
-    "Templates/Untitled.md",
-    "Templates",
->>>>>>> 02c74f346cfda2b4c0ecc660006ca1a23c0e9bf4
     "Pathway/Network Systems/Linux Networking/tc.md",
+    "Pathway/Network Systems/Linux Networking/ip netns.md",
+    "Pathway/Network Systems/Linux Networking/Linux namespace.md",
+    "Pathway/Network Systems/Linux Networking/Linux Data Plane.md",
     "Pathway/Network Systems/Linux Networking/ipvs.md",
     "Pathway/Network Systems/Linux Networking/iptables.md",
-<<<<<<< HEAD
     "Pathway/Network Systems/Linux Networking/IP Link.md",
-    "Pathway/Network Systems/Linux Networking/Images.md",
     "Templates",
     "Pathway/Network Systems/Linux Networking/Linux Gateway",
     "Pathway/Network Systems/Linux Networking/IP Layer",
     "Pathway/Network Systems/Linux Networking/Intro",
-=======
-    "Pathway/Network Systems/Linux Networking/ip netns.md",
-    "Pathway/Network Systems/Linux Networking/Virtual machine.md",
-    "Pathway/Network Systems/Linux Networking/VLAN.md",
-    "Pathway/Network Systems/Linux Networking/Traffic Shaping.md",
-    "Pathway/Network Systems/Linux Networking/Switch.md",
-    "Pathway/Network Systems/Linux Networking/Scheduling.md",
-    "Pathway/Network Systems/Linux Networking/RPKI.md",
-    "Pathway/Network Systems/Linux Networking/Quality of Service.md",
-    "Pathway/Network Systems/Linux Networking/Netlink.md",
-    "Pathway/Network Systems/Linux Networking/Match-Action tables.md",
-    "Pathway/Network Systems/Linux Networking/Load balancing.md",
-    "Pathway/Network Systems/Linux Networking/Linux namespace.md",
-    "Pathway/Network Systems/Linux Networking/Linux Data Plane.md",
-    "Pathway/Network Systems/Linux Networking/Kubernetes.md",
-    "Pathway/Network Systems/Linux Networking/Images.md",
-    "Pathway/Network Systems/Linux Networking/IP Link.md",
-    "Pathway/Network Systems/Linux Networking/IP networking.md",
-    "Pathway/Network Systems/Linux Networking/Filtering.md",
-    "Pathway/Network Systems/Linux Networking/Containers.md",
-    "Pathway/Network Systems/Linux Networking/Docker.md",
-    "Pathway/Network Systems/Linux Networking/Classification.md",
-    "Pathway/Network Systems/Linux Networking/Bridge.md",
->>>>>>> 02c74f346cfda2b4c0ecc660006ca1a23c0e9bf4
     "Pathway/Network Systems/Linux Networking",
-    "Pathway/Network Systems/Foundations/Network layer",
     "Pathway/Network Systems/Foundations/Network Security",
+    "Pathway/Network Systems/Foundations/Network layer",
     "Pathway/Network Systems/Foundations/Link layer",
-<<<<<<< HEAD
     "Pathway/Network Systems/Foundations/Application layer"
-=======
-    "Pathway/Network Systems/Foundations/Application layer",
-    "Pathway/Network Systems/Foundations",
-    "Pathway",
-    "Pathway/Network Systems",
-    "Pathway/Network Systems/Foundations/Transport layer"
->>>>>>> 02c74f346cfda2b4c0ecc660006ca1a23c0e9bf4
   ]
 }

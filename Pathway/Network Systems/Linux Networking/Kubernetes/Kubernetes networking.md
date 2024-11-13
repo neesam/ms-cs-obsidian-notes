@@ -4,3 +4,20 @@
 			- **[[Container Network Interface (CNI)]]**
 				- Defines rules for a [[Network plugin|network plugin]] (which sets up networking for a pod) to follow
 				- Network plugin is called by container runtime
+- ### Pod to pods
+	- kube-proxy
+		- Network component that runs on each [[Node|node]], maintaining network rules to handle traffic routing for [[Service|services]]
+		- Forwards requests to appropriate pods, enabling service discovery and [[Load balancing|load balancing]]
+		- Interfaces to [[iptables]] or [[ipvs]]
+
+- ### Pod to external
+	- Service type needs to be ExternalName in yaml file
+	- When the connection is made, k8s translates the service name into the specified external IP or URL
+
+- ### External to internal
+	- Ingress controller
+		- A load balancer, such as nginx, traefik, haproxy, etc.
+		- Need to deploy ingress controller first
+			- If using third-party provider, this is already done
+	- Ingress
+		- Created to tell the ingress controller how to reach a service
