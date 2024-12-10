@@ -1,0 +1,11 @@
+- ### Types of knowledge
+	- **Frequent pattern, association, correlation**
+		- e.g., songs listened together or in a certain sequence
+		- e.g., A is (more/less) likely to happen given B
+	- **Categorization**
+		- e.g., similarity among users with certain purchases
+		- e.g., differences between two patient groups
+	- **Anomaly, outliers**
+		- e.g., sensor errors, fraud activities, extreme events
+	- **Changes over time**
+		- e.g., emerging new patterns, shift of user interest

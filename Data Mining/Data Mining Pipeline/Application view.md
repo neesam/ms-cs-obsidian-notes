@@ -1,0 +1,11 @@
+- ### Types of applications
+	- **Market analysis, target advertisement**
+		- Customer profiling, product recommendation
+	- **Healthcare, medical research**
+		- Disease diagnosis, patient care, drug discovery
+	- **Science and engineering**
+		- Air pollution, marine life, electric vehicles
+	- **Security**
+		- Surveillance, intrusion/crime, fraud, cyberattack
+	- **Government, nonprofit**
+		- Urban planning, traffic control, education

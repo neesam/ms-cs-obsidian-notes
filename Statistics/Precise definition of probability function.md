@@ -1,0 +1,3 @@
+- ### Rules
+	- Probabilities are between 0 and 1
+	- The sum of the probabilities of all possible outcomes is 1

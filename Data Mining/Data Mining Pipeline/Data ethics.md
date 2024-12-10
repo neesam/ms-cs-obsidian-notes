@@ -1,0 +1,11 @@
+- Data ownership
+	- Who owns the data? What kind of access can people get to certain types of data?
+- Privacy, anonymity
+	- Working with sensitive data
+		- Anonymize data
+- Data and model validity
+	- How can you ensure that data is correct?
+- Data and model bias (algorithmic fairness)
+	- Modeling process/data you introduce could introduce bias towards certain scenarios
+- Interpretation, application, societal consequence
+	- Output of your model could be interpreted or applied in certain scenarios

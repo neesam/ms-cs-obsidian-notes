@@ -1,0 +1,15 @@
+- Diverse data -> diverse knowledge
+- Data quality issues
+- Supervised vs. unsupervised learning
+	- Unsupervised learning deals with unstructured data
+- Performance evaluation
+	- What kind of evaluation metrics to use?
+- Effectiveness vs. efficiency
+	- "I want an accurate, but efficient model"
+		- Finding hybridity
+- Incremental, interactive mining
+	- Continuous receival of data
+		- Updating model with new data
+- Integration of domain knowledge
+- Visual analytics
+- Privacy-preserving mining

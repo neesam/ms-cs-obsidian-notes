@@ -7,7 +7,7 @@
 	- Reducing collisions
 		- By segmenting the network, a bridge reduces the collision domain, which leads to fewer collisions
 
-- ### How are they different from [[Switch|switches]] or gateways?
+- ### How are they different from [[Pathways/Network Systems/2. Linux Networking/Switch|switches]] or gateways?
 	- Switch
 		- Connect multiple devices on a LAN and enable communication between them
 	- Gateway

@@ -1,0 +1,2 @@
+- If we are able to count each possibility *c* times for some *c*, then we can adjust by dividing by *c*
+	- e.g., dividing by 2 to get the correct count after double-counting each possibility

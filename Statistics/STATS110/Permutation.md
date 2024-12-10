@@ -1,0 +1,3 @@
+- A permutation of 1, 2 ... , *n* is an arrangement of them in some order
+	- e.g., 3, 5, 1, 2, 4 is a permutation of 1, 2, 3, 4, 5
+- There are *n!* permutations of 1, 2, ... , *n* 

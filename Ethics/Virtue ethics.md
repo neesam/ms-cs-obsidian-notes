@@ -1,0 +1,5 @@
+- ### Core tenants
+	- Moral decisions should be based on fundamental moral virtues
+	- A morally virtuous person consistently does the moral thing as part of their nature
+	- The right action is the one a morally virtuous person would do
+	- Vices are the opposites of virtue 

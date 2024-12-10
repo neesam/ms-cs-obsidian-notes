@@ -1,0 +1,11 @@
+- Starting in December 2024
+	- Data Mining Foundations and Practice (Elective)
+		- CSCA 5502: Data Mining Pipeline
+	- Computing, Ethics and Society (Breadth)
+		- CSCA 5214: Computing Ethics and Society Foundations
+
+- Following completion of above mentioned specializations
+	- Foundations of Autonomous Systems (Breadth)
+		- CSCA 5834: Modeling of Autonomous Systems
+	- Statistical Learning for Data Science (Data Science elective)
+		- DTSA 5020: Regression and Classification

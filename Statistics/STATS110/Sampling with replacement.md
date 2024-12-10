@@ -1,0 +1,2 @@
+- This type of experiment has n<sup>k</sup> possible outcomes
+	- Each sampled item is a sub-experiment with *n* possible outcomes and there are *k* sub-experiments

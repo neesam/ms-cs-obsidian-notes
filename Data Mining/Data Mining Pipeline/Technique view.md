@@ -1,0 +1,32 @@
+- ### Types of techniques
+	- **Frequent Pattern Analysis**
+		- Frequent itemset
+			- e.g., purchases that occur together (milk, bread and eggs)
+		- Frequent sequence
+			- e.g., occurrences that happen in regular sequence (birds migrating)
+		- Frequent structure
+			- e.g., structures that occur regularly (p2p structures in social media)
+		- Association rules
+		- Correlation analysis
+	- **Classification**
+		- Pre-defined classes
+		- Need training data
+		- Build model to distinguish classes
+	- **Prediction**
+		- Numerical prediction (continuous value)
+			- e.g., weather, stock price, and traffic volume
+	- **Clustering**
+		- No predefined classes
+		- Intra-cluster similarity
+		- Inter-cluster dissimilarity
+	- **Anomaly Detection**
+		- Anomaly/outlier
+			- Differ from the "norm"
+				- e.g., error, noise
+				- e.g., fraud
+				- e.g., extreme events
+	- **Trend and Evolution Analysis**
+		- Changes over time
+			- Overall trend
+			- Periodical patterns
+			- Anomalies

@@ -1,0 +1,1 @@
+- A set with *n* elements has 2<sup>n</sup> subsets, including the empty set and the set itself

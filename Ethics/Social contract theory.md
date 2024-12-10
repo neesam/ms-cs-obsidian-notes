@@ -1,0 +1,4 @@
+- ### Core tenants
+	- "Morality consists in the set of rules, governing how people are to treat one another, that rational people will agree to accept, for their mutual benefit, on the condition that others follow those rules as well"
+	- A rule is justified if rational people would agree to accept the rule, for everyone's mutual benefit, provided that everyone else agreed to follow the rule as well
+	- Implies existence of a government to establish the rules and enforce adherence to the rules
