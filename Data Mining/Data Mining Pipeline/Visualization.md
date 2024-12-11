@@ -1,0 +1,10 @@
+- ### Methods
+	- **Boxplot**
+		- Box, whiskers, outliers
+	- **Histogram**
+	- **Quantile plot**
+	- **Quantile-Quantile (Q-Q) plot**
+		- Comparison of two quantiles
+		- 45-degree reference line
+	- **Scatter plot**
+		- Comparison of two attributes: X and Y
