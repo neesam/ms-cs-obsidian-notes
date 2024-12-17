@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "b14e1033f31ff795",
+        "id": "5485597a55a71762",
         "type": "tabs",
         "children": [
           {
-            "id": "8449cbfb11a5d021",
+            "id": "a20dd557ecab1bc8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Mining/Data Mining Pipeline/Visualization.md",
+                "file": "Data Mining/Data Mining Pipeline/Dataset.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Visualization"
+              "title": "Dataset"
+            }
+          },
+          {
+            "id": "9dc846b07fd8cbc6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Mining/Data Mining Pipeline/Data similarity vs dissimilarity.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Data similarity vs dissimilarity"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -52,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "temporal",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
     "id": "cf11b98f7b5c07a1",
@@ -93,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pathway/Network Systems/Linux Networking/Kubernetes/Network plugin.md",
+                "file": "Pathway/Network Systems/Foundations/Network Security/VPN (Virtual Private Network).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Network plugin"
+              "title": "Backlinks for VPN (Virtual Private Network)"
             }
           },
           {
@@ -112,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pathway/Network Systems/Linux Networking/Kubernetes/Network plugin.md",
+                "file": "Pathway/Network Systems/Foundations/Network Security/VPN (Virtual Private Network).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Network plugin"
+              "title": "Outgoing links from VPN (Virtual Private Network)"
             }
           },
           {
@@ -139,10 +154,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pathway/Network Systems/Linux Networking/Kubernetes/Network plugin.md"
+                "file": "Pathway/Network Systems/Foundations/Network Security/VPN (Virtual Private Network).md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Network plugin"
+              "title": "Outline of VPN (Virtual Private Network)"
             }
           }
         ]
@@ -154,52 +169,52 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "templater-obsidian:Templater": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "8449cbfb11a5d021",
+  "active": "579f1cf5ed123313",
   "lastOpenFiles": [
-    "Data Mining/Data Mining Pipeline/Central tendency.md",
-    "Data Mining/Data Mining Pipeline/Visualization.md",
-    "Data Mining/Data Mining Pipeline/Dispersion.md",
-    "Data Mining/Data Mining Pipeline/Dataset.md",
-    "Data Mining/Data Mining Pipeline/Data view.md",
-    "Data Mining/Data Mining Pipeline/Data ethics.md",
-    "Data Mining/Data Mining Pipeline/Data mining.md",
-    "Data Mining/Data Mining Pipeline/Knowledge view.md",
-    "Data Mining/Data Mining Pipeline/Technique view.md",
-    "Data Mining/Data Mining Pipeline/Major issues in data mining.md",
-    "Data Mining/Data Mining Pipeline/Data mining pipeline.md",
-    "Data Mining/Data Mining Pipeline/Application view.md",
-    "Statistics/Rules of probability.md",
-    "Statistics/Precise definition of probability function.md",
+    "Ethics/Virtue ethics.md",
     "Ethics/Utilitarianism.md",
-    "Courses to take.md",
+    "Ethics/Kantianism.md",
+    "Data Mining/Data Mining Pipeline/Data similarity vs dissimilarity.md",
+    "Data Mining/Data Mining Pipeline/Dataset.md",
+    "Data Mining/Data Mining Pipeline/Dispersion.md",
+    "Data Mining/Data Mining Pipeline/Ordinal attributes.md",
+    "Data Mining/Data Mining Pipeline/Knowledge view.md",
+    "Data Mining/Data Mining Pipeline/Major issues in data mining.md",
+    "Data Mining/Data Mining Pipeline/Visualization.md",
+    "Data Mining/Data Mining Pipeline/Central tendency.md",
     "Templates/Untitled.md",
     "Templates/Discrete sample space.md",
+    "Statistics/STATS110/Discrete sample space.md",
+    "Content Delivery Network (CDN).md",
+    "Math/Statistics/Sampling table.md",
+    "Math/Statistics/Probability.md",
+    "Math/Statistics/Event.md",
+    "Math/Statistics/Counting.md",
+    "Math/Statistics/Binomial coefficient.md",
     "Templates/Overview.md",
     "Templates/Def + purpose.md",
-    "Statistics/Discrete sample space.md",
-    "Statistics/STATS110/Adjusting for overcounting.md",
-    "Statistics/STATS110",
-    "Ethics/Social contract theory.md",
-    "Ethics/Virtue ethics.md",
-    "Ethics/Kantianism.md",
+    "Statistics/STATS110/Subsets.md",
+    "Statistics/STATS110/Sampling without replacement.md",
     "Statistics/STATS110/Sampling with replacement.md",
-    "Ethics",
+    "Statistics/STATS110/Permutation.md",
+    "Statistics/STATS110",
     "Statistics",
-    "Data Mining/Data Mining Pipeline",
-    "Data Mining",
-    "Machine Learning/Supervised Learning",
-    "Untitled 1",
-    "Machine Learning",
+    "Pathways/Network Systems/2. Linux Networking/Kubernetes",
+    "Pathways/Network Systems/1. Foundations/Application layer",
+    "Pathways/Network Systems/1. Foundations/Transport layer",
+    "Pathways/Network Systems/1. Foundations/Network layer",
+    "Pathways/Network Systems/1. Foundations/Network Security",
+    "Pathways/Network Systems/1. Foundations/Link layer",
     "Pathways/Network Systems/3. Cloud Networking",
-    "Pathways/Network Systems/2. Linux Networking/Kubernetes"
+    "Pathways/Network Systems/2. Linux Networking"
   ]
 }
