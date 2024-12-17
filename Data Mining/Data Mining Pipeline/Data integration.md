@@ -1,0 +1,6 @@
+- ### Overview
+	- **Combines data from multiple sources**
+	- **Entity identification**:
+		- e.g., users, items
+	- **Redundant data**:
+		- e.g., [[Correlation analysis|correlation analysis]]

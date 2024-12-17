@@ -1,0 +1,37 @@
+- ### Overview
+	- **Potential issues with data**:
+		- e.g., missing data, errors, inconsistency, availability
+	- **Preparing data for the mining process**:
+		- [[Data cleaning]], integration, transformation, reduction
+
+- ### Dataset quality
+	- **Relevance**
+	- **Accessibility**:
+		- Can you easily access specific types of data you have?
+	- **Interpretability**:
+		- Does data have good descriptions or metadata?
+	- **Reliability**:
+		- Is there good quality control by data provider? 
+	- **Timeliness**:
+		- How quickly can you get the latest information?
+
+- ### Quality of data itself
+	- **Accuracy**:
+		- How accurate is your data? How likely are you to see errors?
+	- **Consistency**:
+		- Does your data agree with itself across multiple data points/dimensions/sources?
+	- **Precision**:
+		- How precise are the data values?
+	- **Granularity**:
+		- How specific can you get with your data?
+			- Temporal - minute, hour, day level data
+			- Spatial - city, state, country level data
+	- **Completeness**:
+		- How complete is your data?
+
+- ### Causes of Data Issues
+	- **Data collection/transmission/processing**
+	- **Human, hardware, and software**:
+		- Limitations, errors, multiple sources
+	- **Changes over time**:
+		- Updated survey, new sensing capabilities

@@ -1,0 +1,33 @@
+- ### Problems with data & solutions
+	- **Incomplete**:
+		- Remove or fill in missing values
+	- **Noisy**:
+		- Smooth noisy data, identify/remove errors/outliers
+	- **Inconsistent**:
+		- Resolve inconsistencies
+
+- ### Incomplete data
+	- **Remove objects/attributes**:
+		- Is an object missing one or more values? Maybe I'll not include that object  
+	- **Manually fill in missing values**:
+		- Not a scalable solution
+	- **Automated methods**:
+		- Provide best guess for missing values
+			- Global constant, attribute mean, class mean
+			- Estimated value: regression, kNN, probabilistic
+
+- ### Noisy data
+	- **Regression**:
+		- Fit data with regression functions
+			- e.g., linear, polynomial, logistic, ...
+	- **Clustering**:
+		- Group data into clusters
+		- Detect and remove outliers
+
+- ### Inconsistent data
+	- **Semantic-based checking**:
+		- Metadata, attribute relationships
+			- e.g., age vs. DOB
+	- **Data understanding**:
+		- Statistical analysis, visualization
+			- e.g., scatter plot
