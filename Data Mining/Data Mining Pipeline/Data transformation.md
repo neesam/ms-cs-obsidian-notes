@@ -1,0 +1,13 @@
+- ### Methods
+	- **Smoothing**:
+		- Noise removal/reduction
+	- **Aggregation**:
+		- e.g., cities -> state (n-to-1)
+	- **Generalization**:
+		- e.g., city -> state (1-to-1)
+	- **[[Normalization]]**:
+		- feature scaling
+	- **[[Discretization]]**:
+		- continuous -> intervals
+	- **Attribute construction**:
+		- constructing new attributes from existing ones

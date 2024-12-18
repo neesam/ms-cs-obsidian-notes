@@ -1,0 +1,17 @@
+- ### Overview
+	- Large data takes a long time to mine
+		- Reduce data to make it more efficient
+			- **Should still find similar patterns in reduced dataset**
+	- **Dimensionality reduction**:
+		- reducing number of columns
+	- **Numerosity reduction**:
+		- reducing number of rows
+
+- ### Attribute selection
+	- Identify useful attributes in a large dataset
+	- **Forward selection**:
+		- Keep adding (most informative) attributes
+	- **Backward elimination**:
+		- Keep removing (least informative) attributes
+	- **Feature engineering**:
+		- Domain knowledge, decision tree induction, ...
