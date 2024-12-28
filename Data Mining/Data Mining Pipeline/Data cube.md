@@ -23,3 +23,18 @@
 	- **Dicing**:
 		- Select along multiple dimensions
 			- e.g., country = 'USA' and year = '2017'
+
+
+- ### Materialization
+	- **Full materialization**:
+		- Pre-compute all cuboids and cells
+			- Takes a lot of computing/time
+				- May not need everything
+	- **No materialization**:
+		- No precomputation, on-demand
+			- No waste of compute/time
+			- Leads to latency in terms of user requests
+	- **Partial materialization**:
+		- Heuristically pre-compute some cuboids and cells
+	- **Iceberg cube**
+		- Only compute cuboid cells that are above a certain threshold

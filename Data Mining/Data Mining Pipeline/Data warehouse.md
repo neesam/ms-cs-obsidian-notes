@@ -1,5 +1,6 @@
 - ### Overview
 	- A subject-oriented, integrated, time-variant, and nonvolatile collection of data in support of management's decision-making process
+	- Supports analysis, reports, data mining
 
 - ### Key characteristics
 	- **Subject-oriented**
@@ -23,3 +24,19 @@
 		- One fact table, multiple levels of dimension tables
 	- **Fact constellation schema**:
 		- Multiple fact tables, shared dimension tables
+
+- ### Architecture
+	- **Data sources**:
+		- Structured, semi-structured, or unstructured
+			- Flat files: e.g., CSV
+			- Operational systems
+			- CRM (Customer Relationship Management)
+			- ERP (Enterprise Resource Planning)
+	- **Staging (ETL)**:
+		- Extract data from various sources
+		- Transform data
+		- Load data into the data warehouse
+	- **Data warehouse**:
+		- Raw data, metadata, summary data
+	- **Data marts**:
+		- Subsets with specific focuses
