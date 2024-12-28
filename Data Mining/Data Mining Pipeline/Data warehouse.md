@@ -1,0 +1,25 @@
+- ### Overview
+	- A subject-oriented, integrated, time-variant, and nonvolatile collection of data in support of management's decision-making process
+
+- ### Key characteristics
+	- **Subject-oriented**
+		- e.g., stores, customers, products, students, courses
+		- Focuses on specific subjects, ignore unrelated ones
+	- **Integrated**
+		- e.g., new store location: customers, businesses, traffic
+		- Heterogenous sources, data cleaning and integration
+	- **Time-variant**
+		- e.g., traffic information in the past 5-10 years
+		- Historical data, longer time span, timestamped data
+	- **Nonvolatile**
+		- Typical data operations: initial loading, append, read
+		- Separate from operational data, not updated in place
+
+- ### Model
+	- **Fact** (e.g., sales) vs. **dimension** (e.g., item, source, time-period)
+	- **Star schema**:
+		- One fact table, multiple dimension tables
+	- **Snowflake schema**:
+		- One fact table, multiple levels of dimension tables
+	- **Fact constellation schema**:
+		- Multiple fact tables, shared dimension tables

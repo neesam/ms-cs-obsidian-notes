@@ -1,0 +1,25 @@
+- ### Overview
+	- **Multi-dimensional data model**:
+		- Dimensions:
+			- Cube attribute
+				- e.g., year, product, color
+		- Facts:
+			- Numeric measure
+				- e.g., sales volume/value
+
+- ### Operations
+	- **Roll-up**:
+		- Aggregation
+			- e.g., daily -> monthly
+	- **Drill-down**:
+		- Reverse of roll-up
+			- e.g., North America -> USA, Mexico, Canada, ...
+	- **Pivot**:
+		- Rotate (visualization)
+			- e.g., <country, item> -> <item, country>
+	- **Slicing**:
+		- Select along a single dimension
+			- e.g., country = 'USA'
+	- **Dicing**:
+		- Select along multiple dimensions
+			- e.g., country = 'USA' and year = '2017'

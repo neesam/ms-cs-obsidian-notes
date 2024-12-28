@@ -1,0 +1,4 @@
+- ### Overview
+	- Online Transactional Processing (OLTP)
+		- Transaction-oriented tasks: bank transfer, purchase, ...
+		- Daily operations: insert, update, delete
